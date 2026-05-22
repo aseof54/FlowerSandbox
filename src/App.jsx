@@ -1,11 +1,14 @@
 import "./Base.css"
 import Board from "./components/Board"
-import GridCell from "./components/GridCell"
+import HeadingText from "./components/HeadingText"
 function App() {
 
   return (
-  <Board></Board>
-)
+    <div className="main-container">
+      <HeadingText />
+      <Board />
+    </div>
+  )
 }
 
 export default App
